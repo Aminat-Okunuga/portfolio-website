@@ -2,6 +2,33 @@ body{
     background-color: #000;
 }
 
-nav,ul{
+nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+ul li a:hover{
+    color: #ffc000;
+    text-decoration: underline;
+}
+
+nav li{
+    margin-right: 15px;
 }
