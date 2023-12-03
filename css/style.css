@@ -10,6 +10,14 @@ nav{
     position: relative;
 }
 
+.logo{
+    font-size: xx-large;
+}
+
+nav .logo a{
+    color: #fff;
+}
+
 ul{
     display: flex;
     list-style-type: none;
@@ -31,4 +39,8 @@ ul li a:hover{
 
 nav li{
     margin-right: 15px;
+}
+
+h1{
+    font-family: 'Poppins';
 }
